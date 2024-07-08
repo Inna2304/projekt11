@@ -73,10 +73,6 @@ header {
     color: #333333;
 }
 
-.breadcrumb {
-    margin-bottom: 30px;
-}
-
 .breadcrumb__list {
     display: flex;
     gap: 8px;
@@ -102,6 +98,10 @@ header {
     .header__logo {
         margin-right: 48px;
     }
+    .content__title {
+        margin-top: 40px;
+        margin-bottom: 28px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -120,6 +120,10 @@ header {
         border: none;
         background: transparent;
     }
+    .content__title {
+        margin-top: 40px;
+        margin-bottom: 32px;
+    }
 }
 
 /*iPhone 11Pro max*/
@@ -130,6 +134,11 @@ header {
     .header__logo {
         width: 48px;
     }
+    .content__title {
+        font-size: 32px;
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
 }
 
 /*iPhone SE*/
@@ -138,6 +147,11 @@ header {
         padding: 14px 16px;
     }
     header {
+        margin-bottom: 24px;
+    }
+    .content__title {
+        font-size: 24px;
+        margin-top: 24px;
         margin-bottom: 24px;
     }
 }
@@ -190,6 +204,8 @@ iPad Pro
 }
 
 .content__title {
+    font-size: 48px;
+    margin-top: 30px;
     margin-bottom: 32px;
 }
 
@@ -203,6 +219,14 @@ iPad Pro
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+.articles-filter__item {
+    border-radius: 24px;
+    padding: 6px 8 px;
+    font-size: 14px;
+    cursor:pointer;
+    border: 1px solid rgba(193, 197, 205, 1)
 }
 
 
